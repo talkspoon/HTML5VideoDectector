@@ -19,6 +19,8 @@
 		E766B112172FFF23008770EC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766B110172FFF23008770EC /* MainStoryboard_iPhone.storyboard */; };
 		E766B115172FFF23008770EC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E766B113172FFF23008770EC /* MainStoryboard_iPad.storyboard */; };
 		E766B118172FFF23008770EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E766B117172FFF23008770EC /* ViewController.m */; };
+		E766B12417303AEE008770EC /* video.js in Sources */ = {isa = PBXBuildFile; fileRef = E766B12317303AEE008770EC /* video.js */; };
+		E766B12517303BEB008770EC /* video.js in Resources */ = {isa = PBXBuildFile; fileRef = E766B12317303AEE008770EC /* video.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		E766B114172FFF23008770EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E766B116172FFF23008770EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E766B117172FFF23008770EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E766B12317303AEE008770EC /* video.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = video.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,7 @@
 				E766B113172FFF23008770EC /* MainStoryboard_iPad.storyboard */,
 				E766B116172FFF23008770EC /* ViewController.h */,
 				E766B117172FFF23008770EC /* ViewController.m */,
+				E766B12017303703008770EC /* Resources */,
 				E766B0FF172FFF23008770EC /* Supporting Files */,
 			);
 			path = HTML5VideoDectector;
@@ -108,6 +112,14 @@
 				E766B10E172FFF23008770EC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E766B12017303703008770EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E766B12317303AEE008770EC /* video.js */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E766B12517303BEB008770EC /* video.js in Resources */,
 				E766B103172FFF23008770EC /* InfoPlist.strings in Resources */,
 				E766B10B172FFF23008770EC /* Default.png in Resources */,
 				E766B10D172FFF23008770EC /* Default@2x.png in Resources */,
@@ -180,6 +193,7 @@
 				E766B105172FFF23008770EC /* main.m in Sources */,
 				E766B109172FFF23008770EC /* AppDelegate.m in Sources */,
 				E766B118172FFF23008770EC /* ViewController.m in Sources */,
+				E766B12417303AEE008770EC /* video.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
