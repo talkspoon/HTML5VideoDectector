@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E72838B017320686001469FB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E72838AF17320686001469FB /* Icon@2x.png */; };
+		E72838B217320692001469FB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E72838B117320692001469FB /* Icon.png */; };
 		E766B0F9172FFF23008770EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E766B0F8172FFF23008770EC /* UIKit.framework */; };
 		E766B0FB172FFF23008770EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E766B0FA172FFF23008770EC /* Foundation.framework */; };
 		E766B0FD172FFF23008770EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E766B0FC172FFF23008770EC /* CoreGraphics.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E72838AF17320686001469FB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Icon@2x.png"; sourceTree = "<group>"; };
+		E72838B117320692001469FB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
 		E766B0F5172FFF23008770EC /* HTML5VideoDectector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTML5VideoDectector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766B0F8172FFF23008770EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E766B0FA172FFF23008770EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				E766B12317303AEE008770EC /* video.js */,
+				E72838B117320692001469FB /* Icon.png */,
+				E72838AF17320686001469FB /* Icon@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 				E766B10F172FFF23008770EC /* Default-568h@2x.png in Resources */,
 				E766B112172FFF23008770EC /* MainStoryboard_iPhone.storyboard in Resources */,
 				E766B115172FFF23008770EC /* MainStoryboard_iPad.storyboard in Resources */,
+				E72838B017320686001469FB /* Icon@2x.png in Resources */,
+				E72838B217320692001469FB /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +334,7 @@
 				E766B11D172FFF23008770EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
